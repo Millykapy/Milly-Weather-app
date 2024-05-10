@@ -1,3 +1,13 @@
 body {
-  background-color: rebeccapurple;
+  background-color: #c7c4d7;
+  font-family: "Reddit Sans Condensed", sans-serif;
+}
+
+.forecast-app {
+  background: white;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px #dee8d2;
+  border-radius: 16px;
+  padding: 30px;
 }

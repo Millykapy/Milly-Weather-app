@@ -11,3 +11,11 @@ body {
   border-radius: 16px;
   padding: 30px;
 }
+.search-form-input {
+  background-color: #c7c4d7;
+  border: none;
+  border-radius: 6px;
+  width: 80%;
+  font-size: 16px;
+  padding: 15px 20px;
+}

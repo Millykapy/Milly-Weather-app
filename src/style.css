@@ -6,6 +6,9 @@ header {
   border-bottom: 1px solid #c7c4d7;
   padding: 0 0 30px 0;
 }
+a {
+  color: burlywood;
+}
 
 .forecast-app {
   background: white;
@@ -31,6 +34,13 @@ header {
   margin-left: 5px;
   border-radius: 6px;
   color: white;
+}
+.forecast-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  padding: 30px 0;
 }
 footer {
   border-top: 1px solid #c7c4d7;

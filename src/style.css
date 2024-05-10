@@ -2,6 +2,10 @@ body {
   background-color: #c7c4d7;
   font-family: "Reddit Sans Condensed", sans-serif;
 }
+header {
+  border-bottom: 1px solid #c7c4d7;
+  padding: 0 0 30px 0;
+}
 
 .forecast-app {
   background: white;
@@ -27,4 +31,11 @@ body {
   margin-left: 5px;
   border-radius: 6px;
   color: white;
+}
+footer {
+  border-top: 1px solid #c7c4d7;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: grey;
 }

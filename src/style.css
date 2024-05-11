@@ -16,16 +16,34 @@ a {
 }
 .forecast-app-details {
   font-size: 16px;
-  color: palevioletred;
+  color: grey;
   line-height: 24px;
   font-weight: 500;
 }
-
+.forecast-app-details strong {
+  color: palevioletred;
+}
+.forecast-app-temperature-container {
+  display: flex;
+}
+.forecast-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.forecast-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
+.forecast-app-temperature {
+  font-size: 88px;
+  font-weight: bold;
+  margin-left: 10px;
+}
 .forecast-app {
   background: white;
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px #dee8d2;
+  box-shadow: 0 30px 50px grey;
   border-radius: 16px;
   padding: 30px;
 }

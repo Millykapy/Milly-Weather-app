@@ -1,6 +1,7 @@
 body {
   background-color: #c7c4d7;
   font-family: "Reddit Sans Condensed", sans-serif;
+  margin: 0;
 }
 header {
   border-bottom: 1px solid #c7c4d7;

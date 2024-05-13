@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(185, 189, 194);
+  background-color: rgba(221, 234, 250, 0.829);
   font-family: "Reddit Sans Condensed", sans-serif;
 }
 header {
@@ -10,6 +10,7 @@ a {
   color: #430f58;
   font-weight: bold;
 }
+
 .forecast-app-city {
   margin: 0;
   font-size: 38px;
@@ -41,7 +42,7 @@ a {
   margin-left: 10px;
 }
 .forecast-app {
-  background: #e0deec;
+  background: #aed2f8d0;
   max-width: 600px;
   margin: 60px auto;
   box-shadow: 0 5px 10px grey;
@@ -49,7 +50,7 @@ a {
   padding: 30px;
 }
 .search-form-input {
-  background-color: #e0deec;
+  background-color: rgb(207, 220, 236);
   border-radius: 6px;
   width: 80%;
   font-size: 16px;

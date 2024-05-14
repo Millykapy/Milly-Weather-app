@@ -46,7 +46,11 @@ a {
   margin-left: 10px;
 }
 .forecast-app {
-  background: #aed2f8d0;
+  background: linear-gradient(
+    135.8deg,
+    rgb(155, 155, 236) 27.1%,
+    rgb(209, 160, 171) 77.5%
+  );
   max-width: 600px;
   margin: 70px auto;
   box-shadow: 0 30px 40px rgb(68, 66, 66);

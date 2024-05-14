@@ -3,44 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Milly App</title>
   </head>
-  <div class="forecast-app">
   <body>
-    <header>
-      <form class="search-form" id="search-form">
-        <input type="search" placeholder="Enter a city.." required  class="search-form-input" id="search-form-input"/>
-        <input type="submit" value="Search" class="search-form-button" />
-      </form>
-    </header>
-    <main>
-      <div class="forecast-app-data">
-      <div>
-        <h1 class="forecast-app-city" id="city"></h1>
-        <p class="forecast-app-details">
-          <span id="time"></span>, <span id ="description"></span>
-          <br />
-          Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
-        </p>
-      </div>
-      <div class="forecast-app-temperature-container">
-        <div id="icon">
-        <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png " 
-        class="forecast-app-icon"
-        />
+    <div class="forecast-app">
+      <header>
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+            id="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="forecast-app-data">
+          <div>
+            <h1 class="forecast-app-city" id="city"></h1>
+            <p class="forecast-app-details">
+              <span id="time"></span>, <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
+            </p>
+          </div>
+          <div class="forecast-app-temperature-container">
+            <div id="icon">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png "
+                class="forecast-app-icon"
+              />
+            </div>
+            <div class="forecast-app-temperature" id="temperature"></div>
+            <div class="forecast-app-unit">°C</div>
+          </div>
         </div>
-        <div class="forecast-app-temperature" id="temperature">
-        </div>
-         <div class="forecast-app-unit">°C</div>
-      </div>
-      </div>
-      </div>
-      <div class="weather-forecast">
+        <div class="weather-forecast">
           <div class="weather-forecast-day">
             <div class="weather-forecast-date">Tue</div>
             <div class="weather-forecast-icon">🌤️</div>
@@ -51,22 +60,26 @@
               <div class="weather-forecast-temperature">8º</div>
             </div>
           </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Millykapy" target="_blank">
-        Millicent Kapinga</a
-      >
-      is
-      <a href="https://github.com/Millykapy/Milly-Weather-app" target="_blank">
-       open-sourced on GitHub</a
-      >
-      and
-      <a href="https://milly-app.netlify.app/" target="_blank">
-        hosted on Netlify</a
-      >
-    </footer>
-  </div>
-  <script src="src/index.js"></script>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Millykapy" target="_blank">
+          Millicent Kapinga</a
+        >
+        is
+        <a
+          href="https://github.com/Millykapy/Milly-Weather-app"
+          target="_blank"
+        >
+          open-sourced on GitHub</a
+        >
+        and
+        <a href="https://milly-app.netlify.app/" target="_blank">
+          hosted on Netlify</a
+        >
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>

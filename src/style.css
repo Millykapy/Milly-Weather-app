@@ -22,12 +22,12 @@ a {
 }
 .forecast-app-details {
   font-size: 16px;
-  color: grey;
+  color: rgba(20, 18, 18, 0.5);
   line-height: 24px;
   font-weight: 500;
 }
 .forecast-app-details strong {
-  color: rgb(238, 110, 153);
+  color: rgb(173, 10, 62);
 }
 .forecast-app-temperature-container {
   display: flex;

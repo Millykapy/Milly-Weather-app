@@ -56,7 +56,6 @@ a {
   box-shadow: 0 30px 40px rgb(68, 66, 66);
   border-radius: 15px;
   padding: 30px;
-  margin-bottom: -6px;
 }
 .search-form-input {
   background-color: rgb(207, 220, 236);
@@ -80,30 +79,23 @@ a {
   justify-content: space-between;
 }
 .weather-forecast {
-  display: flex;
-  justify-content: space-around;
+  text-align: center;
   margin-top: 30px;
+  color: black;
 }
 .weather-forecast-date {
-  text-align: center;
-  color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 10px;
+  opacity: 0.5;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
 .weather-forecast-icon {
   font-size: 38px;
   text-align: center;
 }
 .weather-forecast-temperatures {
-  text-align: center;
-  color: #f65282;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-}
-.weather-forecast-temperature {
-  padding: 0 10px;
+  font-size: 13px;
 }
 
 main {

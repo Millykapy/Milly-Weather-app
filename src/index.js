@@ -65,6 +65,7 @@ function displayForecast() {
                 alt="scattered-clouds-day"
                 width="42"
               />
+              </div>
               <div class="weather-forecast-temperatures">
                 <span class="weather-forecast-temperature-max"> <strong>18°</strong> </span>
                 <span class="weather-forecast-temperature-min">12°</span>

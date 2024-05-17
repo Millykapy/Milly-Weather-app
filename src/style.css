@@ -50,7 +50,7 @@ a {
   );
   max-width: 600px;
   margin: 70px auto;
-  box-shadow: 0 30px 40px rgb(68, 66, 66);
+  box-shadow: 0 20px 30px rgb(68, 66, 66);
   border-radius: 15px;
   padding: 30px;
 }
